@@ -87,7 +87,7 @@ for bloque, grupo in df.groupby("Bloque"):
 
 df_resultado = df[df["Bloque"].isin(bloques_marcados)]
 
-df_resultado.to_excel(r"C:\Users\DELL\Downloads\bloques_H3.xlsx", index=False)
+df_resultado.to_excel(r"C:\Users\DELL\Downloads\viajes_marcado_H3.xlsx", index=False)
 
 print("Proceso finalizado.")
 print("Bloques marcados:", len(set(bloques_marcados)))
